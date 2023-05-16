@@ -1486,7 +1486,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: none;
+		border: solid 6px #ebebeb !important;
 	}
 
 		.image:hover {
@@ -1494,17 +1494,17 @@ input, select, textarea {
 		}
 
 		.image img {
-			display: block;
+			display: none;
 			width: 100%;
 		}
 
 		.image.fit {
-			display: block;
+			display: none;
 			width: 100%;
 		}
 
 		.image.featured {
-			display: block;
+			display: none;
 			width: 100%;
 			margin: 0 0 3.5em 0;
 		}
