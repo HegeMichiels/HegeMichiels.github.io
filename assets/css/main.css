@@ -1509,7 +1509,7 @@ input, select, textarea {
 			margin: 0 0 3.5em 0;
 		}
 
-		.image.left {
+		.image.left { 
 			float: left;
 			margin: 0 1.5em 1.5em 0;
 			position: relative;
